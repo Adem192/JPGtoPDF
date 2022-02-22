@@ -16,7 +16,7 @@
         $pdf-> AddPage();
         $pdf-> Image($image1,10,10,190,280);
         unlink($image1);
-        // array_push($photo,"<img src='data:image/jpeg;base64," . base64_encode( $image )."' style='display: block; width: 100%; height: auto;'>");
+        // array_push($photo,"<img src= 'data:image/jpeg;base64," . base64_encode( $image )."' style='display: block; width: 100%; height: auto;'>");
         // $image_type = $_FILES['imagefile']['type'];
         // $image = addslashes($image);
       }
